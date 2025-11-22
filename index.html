@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,27 +19,31 @@
         <label for="check" class="checkbox">
           <i class="ri-menu-line"></i>
         </label>
-        <input type="checkbox" name="check" id="check" />
+        <input type="checkbox" id="check" />
+
         <ul>
-          <li><a href="#">inicio</a></li>
-          <li><a href="#">Sobre mi</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="https://wa.me/3122114428">¡Contactame!</a></li>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">¡Contáctame!</a></li>
         </ul>
       </div>
     </nav>
-    <section class="section">
+
+    <section id="inicio" class="section">
       <div class="section__container">
         <div class="content">
           <p class="subtitle">Hola</p>
           <h1 class="title">
-            Soy <span>Juan Felipe<br /></span>Web Developer con proposito social
+            Soy <span>Juan Felipe<br /></span>Web Developer con propósito social
           </h1>
           <p class="description">
-          Bienvenid@ a mi portafolio.
-          Aquí vas a encontrar los proyectos sociales y/o tecnológicos en los que he trabajado, lo que he creado con mis propias manos y lo que he aprendido en el camino. Este espacio muestra quién soy, lo que hago y lo que me mueve.
-          Gracias por ver y por darte una vuelta por mi mundo.
+            Bienvenid@ a mi portafolio. Aquí vas a encontrar los proyectos
+            sociales y/o tecnológicos en los que he trabajado, lo que he creado
+            con mis propias manos y lo que he aprendido en el camino. Este
+            espacio muestra quién soy, lo que hago y lo que me mueve. Gracias
+            por ver y por darte una vuelta por mi mundo.
           </p>
 
           <div class="action__btns">
@@ -47,12 +51,102 @@
             <button class="portfolio">Mis Servicios</button>
           </div>
         </div>
+
         <div class="image">
           <img src="assets/image.png" alt="profile" />
         </div>
       </div>
     </section>
-    <script src="script.js"></script>
 
+    <section id="sobre-mi"></section>
+    <section id="proyectos"></section>
+    <section id="servicios"></section>
+    <section id="contacto"></section>
+
+<!-- AQUIVA LA SECCION "SOBRE MI" <-->
+ <section class="about-section" id="sobre-mi">
+  <div class="about-content">
+    <div class="about-img">
+      <img src="assets/image.png" alt="Foto personal">
+    </div>
+
+    <div class="about-text">
+      <h2>Sobre mí</h2>
+      <p>
+        Aquí puedes escribir tu historia, tu propósito, tu ADN profesional y el
+        impacto que buscas generar. Este espacio es para conectar desde lo humano
+        y lo estratégico.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- AQUI VA PROYECTOS-->
+
+<section class="timeline" id="proyectos">
+  <h2 class="timeline__title">Proyectos</h2>
+
+  <div class="timeline__container">
+
+    <div class="timeline__item">
+      <div class="timeline__icon">
+        <img src="assets/proyecto1.png" alt="">
+      </div>
+      <span class="timeline__year">2023</span>
+      <h3 class="timeline__heading">Fundación ROFÉ</h3>
+      <p class="timeline__text">
+        aqui inicia mi recorrido de monitor de jc, completar texto despuess3.
+      </p>
+    </div>
+
+    <div class="timeline__item">
+      <div class="timeline__icon">
+        <img src="assets/proyecto2.png" alt="">
+      </div>
+      <span class="timeline__year">2024</span>
+      <h3 class="timeline__heading">Fundación ROFÉ</h3>
+      <p class="timeline__text">
+        Me vinculé a ROFÉ y trabajé en proyectos sociales con impacto comunitario.
+      </p>
+    </div>
+
+    <div class="timeline__item">
+      <div class="timeline__icon">
+        <img src="assets/proyecto3.png" alt="">
+      </div>
+      <span class="timeline__year">2025</span>
+      <h3 class="timeline__heading">Fundación ROFÉ</h3>
+      <p class="timeline__text">
+        Me vinculé a ROFÉ y trabajé en proyectos sociales con impacto comunitario.
+      </p>
+    </div>
+
+    <div class="timeline__item">
+      <div class="timeline__icon">
+        <img src="assets/proyecto4.png" alt="">
+      </div>
+      <span class="timeline__year">2025</span>
+      <h3 class="timeline__heading">Semilleros</h3>
+      <p class="timeline__text">
+      comence a diseñar el proyecto social "Semilleros" una iniciativa que busca el acercaiento de los jovenes de escasos recursos a programas tecnologicos 100% gratuitos y de calidad
+      </p>
+    </div>
+
+    <div class="timeline__item">
+      <div class="timeline__icon">
+        <img src="assets/proyecto5.png" alt="">
+      </div>
+      <span class="timeline__year">2025</span>
+      <h3 class="timeline__heading">Fundacion los valles</h3>
+      <p class="timeline__text">
+        comence a colaborar el flv en todas las areas donde pudiera aplicar mi conocimiento
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- LINK DEL SCRIPT DE JS-->
+    <script src="script.js"></script>
   </body>
 </html>

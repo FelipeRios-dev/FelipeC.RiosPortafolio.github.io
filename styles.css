@@ -217,3 +217,142 @@ ul li a:hover {
     margin: auto;
   }
 }
+
+/* AQUI VA LA SECCION SOBRE MI*/
+
+.about-section {
+  padding: 60px 0;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+}
+
+.about-content {
+  width: 80%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.about-img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
+  color: #e5e5e5;
+  text-align: left;
+}
+
+.about-text h2 {
+  color: #9333ea;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.about-text p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #d0d0d0;
+}
+
+
+/*AQUI VA LA SECCION DE PROYECTOS*/
+
+.timeline {
+  padding: 4rem 2rem;
+  background: #ffffff;
+  color: #000000;
+}
+
+.timeline__title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #9333EA;
+  font-weight: 700;
+}
+
+.timeline__container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.timeline__container::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 100%;
+  background: #D0D0D0;
+}
+
+.timeline__item {
+  position: relative;
+  width: 50%;
+  padding: 2rem;
+}
+
+.timeline__item:nth-child(odd) {
+  left: 0;
+  text-align: right;
+}
+
+.timeline__item:nth-child(even) {
+  left: 50%;
+}
+
+.timeline__icon {
+  background: #9333EA20;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 1rem auto;
+}
+
+.timeline__icon img {
+  width: 60px;
+}
+
+.timeline__year {
+  background: #9333EA;
+  padding: 5px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.timeline__heading {
+  font-size: 1.4rem;
+  margin-bottom: .5rem;
+  color: #9333EA;
+  font-weight: 600;
+}
+
+.timeline__text {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 300px;
+  margin: 0 auto;
+  color: #6b6b6b; /* gris neutro para fondo blanco */
+}
