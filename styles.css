@@ -356,3 +356,89 @@ ul li a:hover {
   margin: 0 auto;
   color: #6b6b6b; /* gris neutro para fondo blanco */
 }
+
+
+/*AQUI VA LA SECCION DE SERVICIOS*/
+
+.services {
+  padding: 5rem 2rem;
+  background: #000000;
+  text-align: center;
+}
+
+.services__title {
+  font-size: 2.5rem;
+  color: #9333EA;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.services__container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service__card {
+  background: #111;
+  padding: 2rem;
+  border-radius: 14px;
+  width: 280px;
+  min-height: 200px;
+  transition: 0.3s ease;
+  border: 1px solid #222;
+}
+
+.service__card:hover {
+  transform: translateY(-8px);
+  border-color: #9333EA;
+  box-shadow: 0 0 20px #9333EA40;
+}
+
+.service__heading {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #9333EA;
+  font-weight: 600;
+}
+
+.service__text {
+  font-size: 1rem;
+  color: #FFFFFF;
+  line-height: 1.5;
+}
+
+
+/*SECCION DEL FOOTER*/
+
+.footer {
+    background: #FFFFFF;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #000000; /* TEXTO NEGRO */
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons i {
+    font-size: 32px;
+    color: #000000; /* Íconos negros para contraste */
+    transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.social-icons i:hover {
+    transform: scale(1.15);
+    color: #9333EA; /* Morado oficial */
+}
