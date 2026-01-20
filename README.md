@@ -1,1 +1,1 @@
-este es un proyecto de ejemplo realizado con: html:5 css3 y javascript puro, todo el proyecto fue realizado con inteligencia artificial y es una muestra de las posibilidades que tenemos si sabemos usarla bien.
+
