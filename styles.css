@@ -107,7 +107,15 @@ ul li a:hover {
 }
 
 /* ================================= */
-/*             INICIO                */
+/*           VARIABLES BASE          */
+/* ================================= */
+
+:root {
+  --max-width: 1200px;
+}
+
+/* ================================= */
+/*              INICIO               */
 /* ================================= */
 
 .section__container {
@@ -177,39 +185,43 @@ ul li a:hover {
   color: white;
 }
 
+/* Imagen inicio */
 .image img {
   width: min(25rem, 90%);
   border-radius: 100%;
 }
 
 /* ================================= */
-/*             SOBRE MI              */
+/*             SOBRE MÍ              */
 /* ================================= */
 
 .about-section {
-  padding: 60px 0;
+  padding: 80px 0;
   background: var(--primary-color-dark);
   display: flex;
   justify-content: center;
 }
 
 .about-content {
-  max-width: 1100px;
-  width: 80%;
+  max-width: var(--max-width);
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 40px;
+  gap: 4rem;
 }
 
+/* Imagen sobre mí (MISMA ESCALA QUE INICIO) */
 .about-img img {
-  max-width: 400px;
-  width: 100%;
-  border-radius: 8px;
+  width: min(25rem, 90%);
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
 .about-text {
   color: #d8e2f1;
+  max-width: 560px;
 }
 
 .about-text h2 {
